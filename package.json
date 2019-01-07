@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-simple-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hatontuyen/nodejs-simple-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hatontuyen/nodejs-simple-app/issues"
+  },
+  "homepage": "https://github.com/hatontuyen/nodejs-simple-app#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
