@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/hatontuyen/nodejs-simple-app#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "influx": "^5.0.7"
   }
 }
