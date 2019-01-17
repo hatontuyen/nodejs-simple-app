@@ -68,8 +68,8 @@ app.get('/times', function (req, res) {
 
 influx.getDatabaseNames()
   .then(names => {
-    if (!names.includes('express_response_db')) {
-      return influx.createDatabase('express_response_db');
+    if (!names.includes('sensordata')) {
+      return influx.createDatabase('sensordata');
     }
   })
   .then(() => {
