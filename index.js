@@ -8,7 +8,7 @@ const PORT = 8080;
 const HOST = '0.0.0.0';
 
 const influx = new Influx.InfluxDB({
-  host: HOST,
+  host: 'influxdb',
   database: 'sensordata',
   schema: [
     {
