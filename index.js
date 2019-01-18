@@ -4,7 +4,7 @@ const express = require('express');
 const Influx = require('influx');
 const os = require('os');
 // Constants
-const PORT = 8080;
+const PORT = 80;
 const HOST = '0.0.0.0';
 
 const influx = new Influx.InfluxDB({
