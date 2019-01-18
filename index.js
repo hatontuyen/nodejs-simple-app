@@ -49,7 +49,7 @@ app.use((req, res, next) => {
 })
 
 app.get('/', function (req, res) {
-  setTimeout(() => res.end('Hello world!'), Math.random() * 500)
+  setTimeout(() => res.end('Hello world 2019!'), Math.random() * 500)
 })
 
 app.get('/times', function (req, res) {
